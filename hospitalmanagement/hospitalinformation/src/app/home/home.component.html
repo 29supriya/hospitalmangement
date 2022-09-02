@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+        <li class ="nav-item">
+            <a routerLink="create-patient" routerLinkactive="active" class="nav-link">Create Patient</a>
+        </li>
+        <li class ="nav-item">
+            <a routerLink="create-doctor" routerLinkactive="active" class="nav-link">Create Doctor</a>
+        </li>
+        <li class ="nav-item">
+            <a routerLink="show-doctor" routerLinkactive="active" class="nav-link">Doctor Information</a>
+        </li>
+        <li class ="nav-item">
+            <a routerLink="show-patient" routerLinkactive="active" class="nav-link">Patient Information</a>
+        </li>
+    </ul>
+</nav>
+
+<h1 class="text-center">{{title}}</h1>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+    <div class="container">
+        
+    </div>
+</footer>
